@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B2E15BDBADB11C583E986D /* Pods_SampleUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E956F0B67589CE1B447AF6 /* Pods_SampleUpload.framework */; };
 		979EFF801DAAD43600A8787F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979EFF7F1DAAD43600A8787F /* Assets.xcassets */; };
 		979EFF871DAAD43600A8787F /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 979EFF861DAAD43600A8787F /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		979EFF8C1DAAD43600A8787F /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979EFF8B1DAAD43600A8787F /* Messages.framework */; };
 		979EFF8F1DAAD43600A8787F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EFF8E1DAAD43600A8787F /* MessagesViewController.swift */; };
 		979EFF921DAAD43600A8787F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EFF901DAAD43600A8787F /* MainInterface.storyboard */; };
 		979EFF941DAAD43600A8787F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979EFF931DAAD43600A8787F /* Assets.xcassets */; };
+		DBEB431D76F531639D04ACE0 /* Pods_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CA4FEE32FC00004F32207F /* Pods_MessagesExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4020D061C00FF02D855BFAA1 /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		77CA4FEE32FC00004F32207F /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979EFF7C1DAAD43600A8787F /* SampleUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979EFF7F1DAAD43600A8787F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979EFF811DAAD43600A8787F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		979EFF911DAAD43600A8787F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		979EFF931DAAD43600A8787F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979EFF951DAAD43600A8787F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99521E67E764A08E8D2D2906 /* Pods-SampleUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUpload/Pods-SampleUpload.release.xcconfig"; sourceTree = "<group>"; };
+		9EF3FA4CC0B0A05EDC187395 /* Pods-SampleUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUpload/Pods-SampleUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E956F0B67589CE1B447AF6 /* Pods_SampleUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9558970F2FCB398E39F497 /* Pods-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				979EFF8C1DAAD43600A8787F /* Messages.framework in Frameworks */,
+				DBEB431D76F531639D04ACE0 /* Pods_MessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0619C66DAA70F0F9C20D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B2E15BDBADB11C583E986D /* Pods_SampleUpload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 				979EFF8D1DAAD43600A8787F /* MessagesExtension */,
 				979EFF8A1DAAD43600A8787F /* Frameworks */,
 				979EFF7D1DAAD43600A8787F /* Products */,
+				CFF9C5BE4150A722D7012366 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				979EFF8B1DAAD43600A8787F /* Messages.framework */,
+				77CA4FEE32FC00004F32207F /* Pods_MessagesExtension.framework */,
+				D0E956F0B67589CE1B447AF6 /* Pods_SampleUpload.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +130,17 @@
 			path = MessagesExtension;
 			sourceTree = "<group>";
 		};
+		CFF9C5BE4150A722D7012366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD9558970F2FCB398E39F497 /* Pods-MessagesExtension.debug.xcconfig */,
+				4020D061C00FF02D855BFAA1 /* Pods-MessagesExtension.release.xcconfig */,
+				9EF3FA4CC0B0A05EDC187395 /* Pods-SampleUpload.debug.xcconfig */,
+				99521E67E764A08E8D2D2906 /* Pods-SampleUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,8 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 979EFF9C1DAAD43600A8787F /* Build configuration list for PBXNativeTarget "SampleUpload" */;
 			buildPhases = (
+				9BE16FFE03C4D2CB74691B31 /* [CP] Check Pods Manifest.lock */,
 				979EFF7A1DAAD43600A8787F /* Resources */,
 				979EFF9B1DAAD43600A8787F /* Embed App Extensions */,
+				D0619C66DAA70F0F9C20D578 /* Frameworks */,
+				6A0AF7301CAC41AC76EC2998 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 979EFF981DAAD43600A8787F /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
 			buildPhases = (
+				698B8E94398D719361207796 /* [CP] Check Pods Manifest.lock */,
 				979EFF821DAAD43600A8787F /* Sources */,
 				979EFF831DAAD43600A8787F /* Frameworks */,
 				979EFF841DAAD43600A8787F /* Resources */,
+				22D2472D8D03EC13E45CBE8F /* [CP] Embed Pods Frameworks */,
+				C9ACB5987CBC641C87223F40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +244,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D2472D8D03EC13E45CBE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698B8E94398D719361207796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0AF7301CAC41AC76EC2998 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleUpload/Pods-SampleUpload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE16FFE03C4D2CB74691B31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9ACB5987CBC641C87223F40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		979EFF821DAAD43600A8787F /* Sources */ = {
@@ -332,7 +447,9 @@
 		};
 		979EFF991DAAD43600A8787F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9558970F2FCB398E39F497 /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = DR7HA2PYKU;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -346,7 +463,9 @@
 		};
 		979EFF9A1DAAD43600A8787F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4020D061C00FF02D855BFAA1 /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = DR7HA2PYKU;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -360,8 +479,9 @@
 		};
 		979EFF9D1DAAD43600A8787F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF3FA4CC0B0A05EDC187395 /* Pods-SampleUpload.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DR7HA2PYKU;
 				INFOPLIST_FILE = SampleUpload/Info.plist;
@@ -374,8 +494,9 @@
 		};
 		979EFF9E1DAAD43600A8787F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99521E67E764A08E8D2D2906 /* Pods-SampleUpload.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DR7HA2PYKU;
 				INFOPLIST_FILE = SampleUpload/Info.plist;
@@ -405,6 +526,7 @@
 				979EFF9A1DAAD43600A8787F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		979EFF9C1DAAD43600A8787F /* Build configuration list for PBXNativeTarget "SampleUpload" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +535,7 @@
 				979EFF9E1DAAD43600A8787F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
